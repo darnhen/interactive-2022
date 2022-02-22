@@ -1,0 +1,150 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left{
+    float: left;
+    border: 0px red solid;
+    min-width: 180px;
+    height: 90vh;
+    position: fixed;
+    font-size: 30px;
+}
+
+.right{
+    float: right;
+    border: 0px red solid;
+    width: 70vw;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 4;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-information{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 403px;
+}
+
+.me-text, .reply-text{
+    margin-top: 5%;
+}
+
+#one-m-t{
+    margin-top: 0%;
+}
+
+a:hover{
+    background-color: rgb(5, 58, 5);
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover#cullen{
+    background-color: rgb(5, 58, 5);
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover#darnell{
+    background-color: yellow;
+    color: #fff;
+    text-decoration: none;
+}
+
+.me-text, .reply-text{
+    display: inline-block;
+}
+
+.subject{
+    border: 0px solid green;
+}
+
+.me-text{
+    border: 0px solid green;
+}
+
+.letter-icon{
+    width: 100px;
+    height: 100px;
+    background-image: url('images/letter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: solid 0px green;
+    display: inline-block;
+}
+
+.footnotes{
+    font-size: 16px;
+}
+
+sup {
+font-size: smaller;
+}
+
+.space{
+    background-image: linear-gradient(rgb(5, 58, 5), rgb(0, 255, 0));
+    filter: blur(50px);
+    margin: 3% 0% 3% 0%;
+    width: 100%;
+}
+
+#s-one{
+    height: 50vw;
+}
+
+#s-two{ 
+    height: 100vw;
+}
+
+#s-three{
+    height: 50vw;
+}
+
+#s-four{
+    height: 200vw;
+}
+
+#s-five{
+    height: 350vw;
+}
+
+@media screen and (max-width: 973px){
+    .left{
+        position: relative;
+        display: block;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .right{
+        display: block;
+        height: auto;
+        float: left;
+        margin-left: 3%;
+    }
+
+    }
+
+.reply-text{
+    margin: 5% 0% 0% 0%;
+}
+
+.reply-text, .me-text, .me-message, .reply-message{
+    border: 0px blue solid;
+    font-size: 20px;
+}
+
+h2{
+    margin: -.5% 0% 0% 0%;
+}
