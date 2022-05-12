@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "FF";
+  src: url("FT88-School.woff2") format("woff2"),
+       url("FT88-School.woff") format("woff");
+}
+
+body {
+  font-family: "FF", 'Arial Narrow', Arial, sans-serif;
+  font-size: 75px;
+  color: pink;
+  text-align: center;
+  background-color: rgba(251, 255, 0, 0.373);
+  mix-blend-mode: difference;
+}
+
